@@ -14,7 +14,8 @@ function App() {
   const [state,setState]= useState ('Irvine, USA');
 
   //API KEY AND URL
-  const apiKey = process.api.env.REACT_APP_API_KEY;
+  const apiKey = process
+  .env.REACT_APP_API_KEY;
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?1=${state}&${apiKey}`;
   
   //Side Effect

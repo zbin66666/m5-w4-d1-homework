@@ -27,17 +27,8 @@
 .App-link {
   color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-.weatehr-icon {
-  width: 100px;
+.weather-icon {
+  width: 150px;
 }
 .container .card{
   width: 40em;
@@ -50,3 +41,13 @@
   text-align: center;
   right: 0;
 }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
